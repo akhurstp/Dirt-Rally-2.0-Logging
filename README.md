@@ -4,9 +4,10 @@
 \
 I am currently working on a way to export the game data from [Dirt Rally 2.0](https://dirtrally2.dirtgame.com/) via UDP so that people can use the race data log to import into a program like MegaLog Viewer
 
----
 ## Requirements
 \
+There are 2 ways to run this program. The first is using the executable file which does not require any setup. The second is using python itself. If the user wants to use python itself the install requirements are below. Otherwise there are no setup requirements!
+
 This program requires Python 3.7+ in order to run. As such it will require the following modules (some of which come with the install).
 
 - socket - Used to read from the UDP socket in the game
@@ -25,8 +26,6 @@ To enable logging inside of Dirt you will need to follow the steps below. I foll
  **&lt;udp enabled="true" extradata="3" ip="127.0.0.1" port="20777" delay="1" /&gt;**
  \
  <img src="lib/img.jpeg">
-
- ---
 
  ## Usage
 
