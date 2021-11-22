@@ -45,15 +45,15 @@ To enable logging inside of Dirt you will need to follow the steps below. I foll
 There is a decent amount of configuration that needs to be done in order to get SimHub working with this python script.
 
 1) Copy the python files to the install path of SimHub
-<img src="lib/install_path.png">
+<img src="lib/install_path.jpg">
 2) Open SimHub
 3) Open the game config for Dirt Rally 2.0 under the Games window of SimHub
-<img src="lib/config_forwarding.png">
+<img src="lib/config_forwarding.jpg">
 4) Change the game config to allow UDP forwarding to 127.0.0.1:20778
-<img src="lib/config_forwarding_2.png">
+<img src="lib/config_forwarding_2.jpg">
 5) Go down to the controls and events tab under the Events section
-<img src="lib/controls&events_tab.png">
+<img src="lib/controls&events_tab.jpg">
 6) Create 2 new mappings for GameStarted (Run_logging_start.pyw) and GameStopped (Run_logging_stop.pyw)
-<img src="lib/logging_start.png">
-<img src="lib/logging_stop.png">
+<img src="lib/logging_start.jpg">
+<img src="lib/logging_stop.jpg">
 7) Restart SimHub
